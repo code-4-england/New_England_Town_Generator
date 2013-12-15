@@ -2,14 +2,6 @@ require 'sinatra'
 require 'sinatra/reloader'
 require 'sinatra/activerecord'
 
-set :database, {adapter: 'postgresql',
-                database: 'stories_db',
-                host: 'localhost'}
-
-class Town < ActiveRecord::Base
-
-end
-
 get '/' do
   erb :towns
 end
