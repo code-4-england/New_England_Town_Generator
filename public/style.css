@@ -1,0 +1,30 @@
+body {
+  background: url(town.jpeg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Graduate', 'Helvetica Neue';
+  text-align: center;
+}
+
+
+
+img.background {
+  min-height: 100%;
+  min-width: 1024px;
+
+  width: 100%;
+  height: auto;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}

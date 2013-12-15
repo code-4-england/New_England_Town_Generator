@@ -20,8 +20,6 @@ generateTown: function () {
             var randomPrefix = prefix[Math.floor(Math.random() * prefix.length)];
             var randomSuffix = suffix[Math.floor(Math.random() * suffix.length)];
             NeTowns.myCanvas.innerHTML = randomPrefix+randomSuffix;
-
-
         }
 
 };
