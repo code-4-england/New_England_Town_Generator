@@ -11,14 +11,12 @@ class Town < ActiveRecord::Base
 
 end
 
-get '/new' do
+get '/' do
   erb :towns
 end
 
 def create_town
   prefix = ['Sand', 'Scuttle', 'Carver', 'Co','Hopkin','New','Old', 'Ply', 'Attle']
   suffix =['well','harbor','ville','wich','scusset','bridge','hasset', 'ton','town','mouth','bourough']
-  my_towns = []
   n = "#{prefix.sample}#{suffix.sample}"
-  my_towns << n
 end
